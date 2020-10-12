@@ -6,9 +6,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dark: #000;
+    --purple: #E1A1ED;
+    --bright-purple: #E1A1ED 20%;
+    --deep-purple: #E1A1ED 30%;
+    --basic: 400;
+    --thick: 700;
+}
+
 body {
     margin: 0;
+    font-weight: var(--basic);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    background-color: var(--purple);
 }

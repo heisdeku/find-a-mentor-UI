@@ -1,9 +1,10 @@
 import React from 'react';
+import './features.css'
 
 const Features = ({imageSrc, text, description}) => {
     return (
         <div className="feature-item">
-            <div className="w-25" style={background}>
+            <div className="img-round p-2" style={background}>
                 <img src={imageSrc} alt={description} />
             </div>
             <div className="feature-item-text">

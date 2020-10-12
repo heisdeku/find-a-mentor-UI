@@ -1,10 +1,13 @@
 import React from 'react';
+
 import Features from '../../Components/features/features'
 import Mentors from '../../Components/mentors/mentors'
 
+import './hero-section.css'
+
 const HeroSection = () => 
-<div className="hero-section">
-    <div className="features">
+<div className="hero-section container">
+    <div className="features row justify-content-center text-center">
         <h3>What we Offer ?</h3>
         { featureItems.map((item, i) => {
             return (
@@ -13,6 +16,7 @@ const HeroSection = () =>
         })}
     </div>
     <div className="mentors">
+      <h3>Meet Our Mentors</h3>
         <Mentors />
     </div>
 </div>

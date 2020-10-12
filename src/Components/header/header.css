@@ -1,0 +1,6 @@
+.big-background-overlay {
+    position: relative;
+    z-index: -2;
+    max-width: 100%;
+    background-size: contain;
+}
