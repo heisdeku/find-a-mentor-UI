@@ -1,0 +1,4 @@
+.light-backgrounds {
+    position: absolute;
+    z-index: -10;
+}

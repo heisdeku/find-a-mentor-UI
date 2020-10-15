@@ -4,3 +4,12 @@
     max-width: 100%;
     background-size: contain;
 }
+
+.highlighted {
+    color: var(--purple);
+}
+@media (min-width: 630px) {
+    .hero-header {
+    display: flex;
+}
+}

@@ -1,5 +1,21 @@
 @media (max-width: 500px) {
     .navigation-list {
-        display: none
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hamburger {
+        display: block;
+        border: 0;
+        width: 38px;
+        height: 15px;
+        padding-top: 0;
+    }
+    .bar {
+        width: 100%;
+        background-color: var(--purple);
+        height: 30%;
+        margin-top: 5px;
     }
 }

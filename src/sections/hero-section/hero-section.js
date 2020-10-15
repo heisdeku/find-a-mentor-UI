@@ -6,14 +6,16 @@ import Mentors from '../../Components/mentors/mentors'
 import './hero-section.css'
 
 const HeroSection = () => 
-<div className="hero-section container">
-    <div className="features row justify-content-center text-center">
+<div className="hero-section container my-5">
+    <div className="features">
         <h3>What we Offer ?</h3>
+        <div className="feature-list row text-center justify-content-center">
         { featureItems.map((item, i) => {
             return (
-                <Features {...item} />
+                <Features key={i} {...item} />
              )
         })}
+        </div>
     </div>
     <div className="mentors">
       <h3>Meet Our Mentors</h3>

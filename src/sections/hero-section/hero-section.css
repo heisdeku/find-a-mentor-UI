@@ -1,3 +1,6 @@
 .mentors {
     position: relative;
 }
+h3 {
+    color: var(--bright-purple);
+}

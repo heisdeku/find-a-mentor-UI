@@ -9,8 +9,8 @@
 :root {
     --dark: #000;
     --purple: #E1A1ED;
-    --bright-purple: #E1A1ED 20%;
-    --deep-purple: #E1A1ED 30%;
+    --bright-purple: #e58ff5;
+    --deep-purple: #d059e6;
     --basic: 400;
     --thick: 700;
 }
@@ -23,6 +23,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-button {
+.btn {
     background-color: var(--purple);
+    border: none;
+    outline: none;
+    color: var(--dark);
+}
+
+.basic-btn {
+    border-radius: 0;
 }
