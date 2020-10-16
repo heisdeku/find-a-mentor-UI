@@ -1,5 +1,6 @@
 import React from 'react';
 import PriceCard from '../../Components/price-card/price-card';
+import FigureCards from "../../Components/figures/figures";
 
 let plans = [
     {
@@ -22,9 +23,22 @@ let plans = [
     },
 ]
 
+const figures = [
+    { title: "Number of Mentors", number: 85},
+    { title: "Number of Mentees", number: 200}
+  ]
+  
 
 const PricingSection = () => 
 <div className="container mt-3">
+    <div className="container">
+        <div className="row card-group card-deck">
+        {
+          figures.map((figure, key) => (<FigureCards {...figure} />)
+          )
+        }
+        </div>
+    </div>
     <div className="card-group justify-content-between col-lg-12 col-sm-10">
         {
             plans.map((plan, i) => 

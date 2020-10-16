@@ -11,33 +11,25 @@ class Navbar extends Component {
     render() {
         return (
             <div className="navbar navbar-expand-lg navbar-light">
-                <a href="shit.com" className="navbar-brand align-center">
+                <a href="https://findamentor.netlify.com" className="navbar-brand align-center">
                     <Logo 
                         style={styles}
-                        className="d-inline-block" 
                      />
-                    {/*               
-                    <img 
-                        src="../../images/logo-vector.svg"
-                        alt="Find A Mentor Logo"
-                        style={styles}
-                        className="d-inline-block"
-                    / > */}
-                    <h5 className="logo-text text-500 d-inline">FindaMentor</h5>
+                    <h5 className="logo-text d-inline">FindaMentor</h5>
                 </a>
                 <div className="hamburger navbar-toggler" role="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </div>
-                <div className="collapse navbar-collapse" id="navbarContent">
-                <ul className="navbar-nav mr-auto navigation-list">
-                {items.map((i, index) => {
-                       return <NavbarItem text={i} key={index} />
-                    })}
-                    <form className="form-inline">
-                    <Button 
-                        text="BECOME A MENTEE"
-                        classes="basic-btn"
-                        style={ButtonStyle}
+                <div className="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul className="navbar-nav navigation-list">
+                        {items.map((i, index) => {
+                            return <NavbarItem text={i} key={index} />
+                        })}
+                        <form className="form-inline">
+                        <Button 
+                            text="BECOME A MENTEE"
+                            classes="basic-btn btn-lg"
+                            style={ButtonStyle}
                     />
                     </form>
                     
@@ -51,7 +43,7 @@ class Navbar extends Component {
 }
 const styles = {
     height: "20px",
-    maxWidth: "100%",
+    width: "19px",
 }
 const ButtonStyle = {
     fontWeight: "700"

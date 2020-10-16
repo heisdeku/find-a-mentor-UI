@@ -6,10 +6,10 @@ import Mentors from '../../Components/mentors/mentors'
 import './hero-section.css'
 
 const HeroSection = () => 
-<div className="hero-section container my-5">
-    <div className="features">
-        <h3>What we Offer ?</h3>
-        <div className="feature-list row text-center justify-content-center">
+<div className="hero-section container-fluid my-5 px-4">
+    <div className="features container mb-5">
+        <h3 className="mb-3">What we Offer ?</h3>
+        <div className="row justify-content-center align-items-center">
         { featureItems.map((item, i) => {
             return (
                 <Features key={i} {...item} />
@@ -17,13 +17,12 @@ const HeroSection = () =>
         })}
         </div>
     </div>
-    <div className="mentors">
-      <h3>Meet Our Mentors</h3>
+    <div className="mentors container">
+      <h3 className="mb-3">Our Mentors</h3>
         <Mentors />
     </div>
+
 </div>
-
-
 
 const featureItems = [
     {
@@ -41,7 +40,8 @@ const featureItems = [
       text: 'Portfolio Review',
       description: 'Your portfolio gets reviewed',
     },
-  ]
+]
+
 
 export default HeroSection;
   

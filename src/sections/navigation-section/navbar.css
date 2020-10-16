@@ -12,10 +12,13 @@
         height: 15px;
         padding-top: 0;
     }
-    .bar {
-        width: 100%;
-        background-color: var(--purple);
-        height: 30%;
-        margin-top: 5px;
-    }
+}
+
+h5 {
+    font-weight: var(--basic);
+}
+
+ul.navigation-list li {
+    padding: 0 20px;
+    text-transform: uppercase;
 }
