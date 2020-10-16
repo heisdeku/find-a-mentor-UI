@@ -1,3 +1,7 @@
 .footer {
     background: var(--bright-purple);
 }
+
+li {
+    list-style-type: none;
+}

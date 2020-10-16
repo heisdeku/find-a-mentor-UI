@@ -3,3 +3,9 @@
     height: 120px;
     width: 120px;
 }
+
+.feature-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

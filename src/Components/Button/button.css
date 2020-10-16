@@ -1,0 +1,6 @@
+.btn:focus,
+.btn:hover {
+    border: 2px solid var(--purple);
+    background-color: #faecfb;
+    color: black;
+}

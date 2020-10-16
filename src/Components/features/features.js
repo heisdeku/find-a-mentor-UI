@@ -3,8 +3,8 @@ import './features.css'
 
 const Features = ({imageSrc, text, description}) => {
     return (
-        <div className="feature-item col-sm-6 col-lg-4">
-            <div className="img-round p-2" style={background}>
+        <div className="feature-item col-sm-6 col-lg-4 text-center my-3">
+            <div className="img-round p-2 align-self-center" style={background}>
                 <img src={imageSrc} alt={description} />
             </div>
             <div className="feature-item-text">

@@ -2,14 +2,23 @@
     position: relative;
     z-index: -2;
     max-width: 100%;
+    min-height: 9vh;
     background-size: contain;
 }
 
 .highlighted {
     color: var(--purple);
 }
+
+p {
+    line-height: 1.8rem;
+}
+
 @media (min-width: 630px) {
     .hero-header {
-    display: flex;
-}
+        display: flex;
+    }
+    .header h2 {
+        font-size: 2.5em;
+    }
 }

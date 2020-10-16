@@ -1,3 +1,24 @@
+mentors-section {
+    height: 100%;
+}
+
 .mentors-images {
     position: relative;
+    height: 65%;
+}
+
+.person-one,
+.person-three {
+    position: relative;
+    left: 150px;
+}
+
+.person-one {
+    top: 42px;
+}
+.person-three {
+    bottom: 40px;
+}
+.words>p {
+    margin-top: 10px;
 }
