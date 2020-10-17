@@ -4,3 +4,11 @@
 h3 {
     color: var(--deep-purple);
 }
+@media (min-width: 850px) {
+    .features {
+        margin: 5rem;
+    }
+    .features > row {
+        padding: 20px 0;
+    }
+}

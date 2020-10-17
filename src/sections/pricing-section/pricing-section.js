@@ -32,19 +32,20 @@ const figures = [
 const PricingSection = () => 
 <div className="container mt-3">
     <div className="container">
-        <div className="row card-group card-deck">
+        <div className="row card-group card-deck p-3">
         {
           figures.map((figure, key) => (<FigureCards {...figure} />)
           )
         }
         </div>
     </div>
-    <div className="card-group justify-content-between col-lg-12 col-sm-10">
-        {
-            plans.map((plan, i) => 
-                (<PriceCard key={i} {...plan} />)
-            )
-        }
+    <div className="container">
+        <div className="row card-group justify-content-between col-lg-12 m-0 p-0">
+            {
+                plans.map((plan, i) => 
+                    (<PriceCard key={i} {...plan} />)
+            )}
+        </div>
     </div>
 </div>
     

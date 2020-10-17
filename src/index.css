@@ -48,3 +48,9 @@ body {
     border-radius: 0;
     width: auto;
 }
+
+@media (min-width: 850px) {
+    p {
+        font-size: 20px;
+    }
+}

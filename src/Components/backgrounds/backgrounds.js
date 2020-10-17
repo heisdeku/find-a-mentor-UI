@@ -11,12 +11,33 @@ import './background.css'
 const Backgrounds = () =>
     <div className="light-backgrounds">
         <VectorOne 
-            className="img-fluid"
+            className="bg-one"
         />
-        <img src={vector} className="img-fluid" alt=""/>
-        <img src={vectorTwo} className="img-fluid" alt=""/>
-        <img src={vectorFour} className="img-fluid" alt=""/>
-        <img src={vectorThree} className="img-fluid" alt=""/>
+        <img 
+            src={vector}
+            className="bg-two"
+            alt=""
+        />
+        <img 
+            src={vectorTwo} 
+            className="bg-three"
+            alt=""
+        />
+        <img 
+            src={vectorFour} 
+            className="bg-four"
+            alt=""
+        />
+        <img 
+            src={vectorThree} 
+            className="bg-six"
+            alt=""
+        />
+        <img 
+            src={vectorThree} 
+            className="bg-five"
+            alt=""
+        />
     </div>
 
 export default Backgrounds;

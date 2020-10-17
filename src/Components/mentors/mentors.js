@@ -6,8 +6,8 @@ import ImageThree from '../../images/Ellipse-5.png'
 
 import './mentors.css'
 const Mentors = () =>
-    <div className="mentors-section">
-        <div className="mentors-images">
+    <div className="mentors-section d-lg-flex col-lg-12">
+        <div className="mentors-images col-lg-7">
             <div>
                 <img 
                 src={ImageTwo}
@@ -30,7 +30,7 @@ const Mentors = () =>
                 />
             </div>                
         </div>
-        <div className="words">
+        <div className="words col-lg-5 align-self-center">
             <p>We have mentors who have worked with top tech companies and are very experienced in their field.
             Our mentors are friendly and people who can instantly connect with
             </p>
