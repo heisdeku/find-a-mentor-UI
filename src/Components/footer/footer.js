@@ -25,7 +25,7 @@ const Footer = () =>
                     <li>Terms of Service</li>
                     </ul>                    
                 </div>
-                <div className="footer__contact col-lg-4">
+                <div className="footer__contact col-lg-4 mt-4">
                     <h6 className="footer__bold">Contact Details</h6>
                     <ul>
                     <li>+234567890</li>
