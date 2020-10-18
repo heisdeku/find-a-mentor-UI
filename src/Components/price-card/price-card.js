@@ -1,19 +1,19 @@
 import React from 'react';
 
 const PriceCard = ({ title, description, price, features, popularity}) => 
-<div className="card card-item border-light col-md-4 d-flex flex-column justify-content-center align-items-center col-lg-4 mx-2 my-4">
+<div className="card card-item border-light col-md-4 d-flex flex-column pt-5 col-lg-4 mx-2 my-4">
     {
         popularity ?  <span className="badge badge-primary">Popular Plan</span> : null
     }
-    <div className="text-center">
+    <div className="container text-center">
         <h4 className="card-title">{title}</h4>
         <p>{description}</p>
         <p className="card-text">
-            <sub>$</sub><span className="amount">{price}</span>/month
+            <span className="amount"><sup>$</sup>{price}</span>/month
         </p>
         <div className="">
             <p className="card-subtitle">Key Features</p>
-            <div className="">
+            <div className="text-left">
             {
                 features.map((feature, i) => {
                     return (
