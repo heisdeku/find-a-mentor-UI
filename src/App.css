@@ -1,4 +1,67 @@
-.dim-white-section {
+.btn {
+    background-color: var(--purple);
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 8px;
+    width: 125px;
+    outline: none;
+    color: var(--dark);
+}
+
+.basic-btn {
+    border-radius: 0;
+    width: auto;
+}
+.figures .card {
+    height: 10rem;
+}
+@media (min-width: 850px) {
+    p {
+        font-size: 16px;
+    }
+}
+.card-item {
+    min-height: 350px;
+    max-height: 480px;
+}
+.card-subtitle {
     position: relative;
-    background-color: #fff 20%;
+}
+.card-subtitle::before,
+.card-subtitle::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: var(--dark);
+    top: 12px;
+}
+.card-subtitle::before {
+    left: 0;
+}
+.card-subtitle::after {
+    right: 0;
+}
+.amount {
+    font-size: 50px;
+}
+.badge {
+    position: absolute;
+    top: -14px;
+    left: 37%;
+    z-index: 5;
+    min-height: 2.1rem;
+    width: 100px;
+    padding: 8px;
+    border-radius: 0;
+    background: var(--deep-purple);
+    font-size: 14px;
+}
+.dot {
+    background: var(--deep-purple);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
 }

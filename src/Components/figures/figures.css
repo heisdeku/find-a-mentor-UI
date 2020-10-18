@@ -1,0 +1,7 @@
+.bold {
+    font-weight: var(--thick);
+    font-size: 32px;
+}
+h4.bold {
+    letter-spacing: .9px;
+}

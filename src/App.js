@@ -19,7 +19,7 @@ function App() {
         <Navbar />
       </Header>
       <HeroSection />
-      <div className="dim-white-section bg-light">
+      <div className="dim-white-section bg-light p-relative">
         <Backgrounds />
         <PricingSection />
         <TestimonialSection />

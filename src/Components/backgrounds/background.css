@@ -1,7 +1,9 @@
 .light-backgrounds {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
+
 .light-backgrounds,
 .bg-one,
 .bg-two,
@@ -13,22 +15,28 @@
 }
 
 .bg-one {
-
+    top: 5%;
+    left: 0;
 }
 
 .bg-two {
-
+    top: 49%;
+    left: 51%;
 }
 
 .bg-three {
-
+    left: 50%;
 }
-
+.bg-four {
+    top: 25%;
+    right: -2%;
+}
 .bg-six {
     top: 30rem;
-    left: 0px;
+    left: 10px;
 }
 
 .bg-five {
-    bottom: 30%;
+    bottom: 22%;
+    right: 3%;
 }
