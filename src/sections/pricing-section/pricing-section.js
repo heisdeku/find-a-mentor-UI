@@ -39,7 +39,7 @@ const PricingSection = () =>
     <div className="container my-5">
         <div className="figures mt-5 row card-group justify-content-between card-deck p-3">
         {
-          figures.map((figure, key) => (<FigureCards {...figure} />)
+          figures.map((figure, key) => (<FigureCards key={key} {...figure} />)
           )
         }
         </div>
