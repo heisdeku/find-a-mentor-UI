@@ -1,7 +1,15 @@
 .footer {
-    background: var(--bright-purple);
+    background: var(--deep-purple);
 }
-
+.footer__bold {
+    font-weight: var(--thick);
+}
 li {
     list-style-type: none;
+    padding: 8px 0;
+}
+@media (min-width: 630px) {
+    .footer__information {
+        margin-top: 0;
+    }
 }
