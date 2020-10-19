@@ -1,8 +1,9 @@
 import React from 'react';
 import './footer.css';
-import { ReactComponent as GoogleIcon } from '../../images/Google.svg';
-import { ReactComponent as FacebookIcon } from '../../images/Facebook.svg';
-import { ReactComponent as TwitterIcon } from '../../images/Twitter.svg';
+
+import GoogleIcon from '../../images/Google.svg';
+import FacebookIcon from '../../images/Facebook.svg';
+import TwitterIcon from '../../images/Twitter.svg';
 
 const Footer = () => 
     <footer className="footer pt-4">
@@ -10,14 +11,14 @@ const Footer = () =>
             <div className="row justify-content-start p-md-4">
                 <div className="footer__social-icons col-sm-6 col-md-4 col-lg-4 mt-4">
                     <h6 className="footer__bold">Follow Us</h6>
-                    <div className="google-icon pl-3">
-                        <GoogleIcon className="img-fluid" />
+                    <div className="google-icon pl-3 py-2">
+                        <img src={GoogleIcon} className="img-fluid" />
                     </div>
-                    <div className="facebook-icon pl-3">
-                        <FacebookIcon className="img-fluid" />
+                    <div className="facebook-icon pl-3 py-2">
+                        <img src={FacebookIcon} className="img-fluid" />
                     </div>    
-                    <div className="twitter-icon pl-3">
-                        <TwitterIcon className="img-fluid" />
+                    <div className="twitter-icon pl-3 py-2">
+                        <img src={TwitterIcon} className="img-fluid" />
                     </div>             
                 </div>     
                 <div className="footer__information col-sm-6 col-md-4 col-lg-4 my-4">

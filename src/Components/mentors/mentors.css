@@ -22,7 +22,7 @@ mentors-section {
 .words>p {
     margin-top: 10px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .mentors-images {        
         left: -25px;
     }
