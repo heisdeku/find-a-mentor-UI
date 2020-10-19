@@ -22,3 +22,9 @@ mentors-section {
 .words>p {
     margin-top: 10px;
 }
+@media (max-width: 600px) {
+    .mentor-images {
+        position: relative;
+        left: -25px;
+    }
+}
