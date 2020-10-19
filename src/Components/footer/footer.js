@@ -12,13 +12,13 @@ const Footer = () =>
                 <div className="footer__social-icons col-sm-6 col-md-4 col-lg-4 mt-4">
                     <h6 className="footer__bold">Follow Us</h6>
                     <div className="google-icon pl-3 py-2">
-                        <img src={GoogleIcon} className="img-fluid" />
+                        <img src={GoogleIcon} className="img-fluid" alt="" />
                     </div>
                     <div className="facebook-icon pl-3 py-2">
-                        <img src={FacebookIcon} className="img-fluid" />
+                        <img src={FacebookIcon} className="img-fluid" alt="" />
                     </div>    
                     <div className="twitter-icon pl-3 py-2">
-                        <img src={TwitterIcon} className="img-fluid" />
+                        <img src={TwitterIcon} className="img-fluid" alt="" />
                     </div>             
                 </div>     
                 <div className="footer__information col-sm-6 col-md-4 col-lg-4 my-4">
