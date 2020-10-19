@@ -23,8 +23,7 @@ mentors-section {
     margin-top: 10px;
 }
 @media (max-width: 600px) {
-    .mentor-images {
-        position: relative;
+    .mentors-images {        
         left: -25px;
     }
 }
