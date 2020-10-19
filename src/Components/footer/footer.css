@@ -1,5 +1,5 @@
 .footer {
-    background: var(--deep-purple);
+    background: rgba(225, 161, 237, 0.3);
 }
 .footer__bold {
     font-weight: var(--thick);

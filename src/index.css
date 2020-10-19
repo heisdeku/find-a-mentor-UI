@@ -9,8 +9,8 @@
 :root {
     --dark: #000;
     --purple: #E1A1ED;
-    --bright-purple: #e58ff5;
-    --deep-purple: #d059e6;
+    --bright-purple: rgba(225, 161, 237, 0.2);
+    --deep-purple: rgba(75, 0, 89, 1);
     --basic: 400;
     --thick: 700;
 }
@@ -26,7 +26,7 @@ h5 {
 body {
     margin: 0;
     font-weight: var(--basic);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
