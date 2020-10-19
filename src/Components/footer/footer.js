@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css';
+import { ReactComponent as GoogleIcon } from '../../images/Google.svg';
+import { ReactComponent as FacebookIcon } from '../../images/Facebook.svg';
+import { ReactComponent as TwitterIcon } from '../../images/Twitter.svg';
 
 const Footer = () => 
     <footer className="footer pt-4">
@@ -8,13 +11,13 @@ const Footer = () =>
                 <div className="footer__social-icons col-sm-6 col-md-4 col-lg-4 mt-4">
                     <h6 className="footer__bold">Follow Us</h6>
                     <div className="google-icon pl-3">
-                        <span className="fab fa-google"></span>
+                        <GoogleIcon className="img-fluid" />
                     </div>
                     <div className="facebook-icon pl-3">
-                        <span className="fab fa-facebook"></span>
+                        <FacebookIcon className="img-fluid" />
                     </div>    
                     <div className="twitter-icon pl-3">
-                        <span className="fab fa-twitter"></span>
+                        <TwitterIcon className="img-fluid" />
                     </div>             
                 </div>     
                 <div className="footer__information col-sm-6 col-md-4 col-lg-4 my-4">
