@@ -6,8 +6,8 @@ import ImageThree from '../../images/Ellipse-5.png'
 
 import './mentors.css'
 const Mentors = () =>
-    <div className="mentors-section d-lg-flex col-lg-12 pos-relative">
-        <div className="mentors-images col-lg-7 pos-absolute">
+    <div className="mentors-section d-lg-flex col-lg-12 p-0">
+        <div className="mentors-images col-lg-7 p-0">
             <div>
                 <img 
                 src={ImageTwo}
